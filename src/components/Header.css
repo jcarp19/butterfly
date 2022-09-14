@@ -21,3 +21,9 @@ header {
 .header-icon {
     font-size: 1.5rem;
 }
+@media only screen and (min-width: 600px) {
+    header {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+}
