@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+}
+.butterfly-icon {
+    width: 45px;
+    fill: #191919;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .25rem;
+    color: #191919;
+    font-weight: 400;
+}
+.header-icon {
+    font-size: 1.5rem;
+}
