@@ -1,4 +1,4 @@
-import './Header.css';
+import './Header.scss';
 import ButterflyIcon from '../images/butterfly-icon.svg';
 function Header() {
     return (
@@ -9,8 +9,6 @@ function Header() {
             <div className="contact">
                 <span className="material-icons header-icon">call</span>
                 <span className='phone-number'>248.953.4315</span>
-                {/* <span className='material-icons header-icon'>email</span>
-                <span>Contact</span> */}
             </div>
         </header>
     )

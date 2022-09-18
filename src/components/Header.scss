@@ -1,3 +1,5 @@
+@import "../sass/main.scss";
+
 header {
     display: flex;
     justify-content: space-between;
@@ -8,14 +10,14 @@ header {
 }
 .butterfly-icon {
     width: 45px;
-    fill: #191919;
+    fill: $color-fills;
 }
 .contact {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: .25rem;
-    color: #191919;
+    color: $color-text-dark;
     font-weight: 400;
 }
 .header-icon {

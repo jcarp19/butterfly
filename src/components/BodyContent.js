@@ -1,4 +1,4 @@
-import './BodyContent.css';
+import './BodyContent.scss';
 // import ButterflyLogo from '../images/butterfly-logo.svg';
 import ButterflyLogoAlt from '../images/butterfly-logo-alt.svg';
 
@@ -14,7 +14,6 @@ export default function BodyContent() {
                     <button className="btn" aria-label='Learn More' title="Learn More button">Learn More</button>
                 </div>
             </div>
-
         </div>
     )
 };

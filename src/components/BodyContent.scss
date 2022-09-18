@@ -1,3 +1,5 @@
+@import "../sass/main.scss";
+
 @keyframes moveInLeft {
     0% {
       opacity: 0;
@@ -32,20 +34,18 @@
     padding: 0 1rem;
 }
 .main-content {
-    height: 75vh;
+    height: 60vh;
     max-width: 100%;
     background-image: linear-gradient(to right bottom, rgba(255, 231, 154, 0.8),rgba(255, 244, 182, 0.1)), url('../images/butterfly-on-flower-25.jpg');
     background-size: cover;
     background-position: center;
-    /* polygon coordinence path top-left, top-right, bottom-right, bottom-left */
-    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+    /* polygon coordinence path left-top, right-top, right-bottom, left-bottom */
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
     position: relative; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    padding-top: 125px;
-    overflow-y: scroll;
+    justify-content: center;
 }
 .main-branding {
     width: 100%;
@@ -79,7 +79,7 @@
     border-radius: 120px;
     border: 1px solid #ffffff;
     background-color: #ffffff;
-    color: #000000;
+    color: $color-text-dark;
     font-size: 1rem;
     font-weight: 500;
     transition: all .25s;
@@ -88,6 +88,11 @@
     transform: translateY(-0.3rem);
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
 }
+.btn:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); 
+}
+
 @media only screen and (min-width: 390px) {
   .main-headline__title {
     font-size: 1.0rem;
