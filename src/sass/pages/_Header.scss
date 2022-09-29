@@ -1,16 +1,7 @@
-@import "../sass/main.scss";
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 1rem 2rem;
-}
 .butterfly-icon {
-    width: 45px;
-    fill: $color-fills;
+    width: 75px;
+    margin-bottom: 1rem;
+    // fill: $color-fills;
 }
 .contact {
     display: flex;

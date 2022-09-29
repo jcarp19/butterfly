@@ -1,0 +1,26 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    &:not(:first-child) {
+        margin-bottom: $gutter-horz;
+    }
+}
+.col-1-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    @include padding-base;
+}
+.col-1-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @include padding-base;
+}
