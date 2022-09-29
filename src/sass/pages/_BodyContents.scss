@@ -1,3 +1,15 @@
+.phone {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: $color-text-light;
+  z-index: 1;
+  justify-content: flex-end;
+}
+.phone-icon {
+  font-size: 1.3rem;
+  margin-right: .25rem;
+}
 .main-content {
   align-items: center;
   justify-content: center;
@@ -17,11 +29,6 @@
   clip-path: polygon(0 0, 100% 0, 100% 475px, 0 100%);
   padding: 0 1rem;
   position: relative;
-  z-index: 1000;
-}
-.main-branding {
-  width: 100%;
-  text-align: center;
 }
 .butterfly-icon {
   animation: moveInBottom 1s ease-in-out .5s;
@@ -31,13 +38,5 @@
   max-width: 600px;
   animation: moveInLeft 1s ease-in-out;
 }
-.main-headline {
-  width: 100%;
-  padding-top: .5rem;
-  text-align: center;
-  animation: moveInRight 1s .5s ease-in-out;
-}
-  .main-cta {
-    margin-top: 2rem;
-}
+
   
