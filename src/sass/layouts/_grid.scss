@@ -5,10 +5,11 @@
     width: 100%;
     box-sizing: border-box;
     margin: 0 auto;
+    margin-bottom: $gutter-horz;
 
-    &:not(:first-child) {
-        margin-bottom: $gutter-horz;
-    }
+    // &:not(:first-child) {
+    //     margin-bottom: $gutter-horz;
+    // }
 }
 .col-1-1 {
     @include col-base;

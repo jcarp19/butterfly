@@ -7,7 +7,6 @@ h2 {
 font-family: 'Palanquin', sans-serif;
 font-size: 2.0rem;
 font-weight: 500;
-margin-bottom: 1rem;
 }
 p {
   
@@ -16,7 +15,7 @@ p {
   }
 }
 
-.main-headline__title {
+.headline-primary {
   font-weight: 300;
   font-size: 1.0rem;
   line-height: 1.5rem;
@@ -28,23 +27,32 @@ p {
   text-shadow: 0px 1px 3px rgba($color-text-dark, .25);
   animation: moveInRight 1s .5s ease-in-out;
 }
+.headline-secondary {
+  text-transform: uppercase;
+  display: inline-block;
+  background-image: linear-gradient(to right, $color-primary, $color-secondary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+}
   @media only screen and (min-width: 320px) {
-    .main-headline__title {
+    .headline-primary {
       font-size: 1.0rem;
     }
   }
   @media only screen and (min-width: 390px) {
-    .main-headline__title {
+    .headline-primary {
       font-size: 1.25rem;
     }
   }
   @media only screen and (min-width: 465px) {
-    .main-headline__title {
+    .headline-primary {
       font-size: 1.25rem;
     }
   }
   @media only screen and (min-width: 600px) {
-    .main-headline__title {
+    .headline-primary {
       font-size: 2rem;
     }
   }

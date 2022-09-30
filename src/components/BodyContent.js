@@ -15,7 +15,7 @@ export default function BodyContent() {
                 </div>
                 <img className='butterfly-icon' src={ButterflyIcon} alt="Butterfly Mirrors Logo" />
                 <img className='main-logo' aria-label='Butterfly Mirror Logo' src={ButterflyLogoAlt} alt="Butterfly Mirror Logo" />
-                <h1 className='main-headline__title'>web design & development</h1>
+                <h1 className='headline-primary'>web design & development</h1>
                 <a className="btn" href='https://butterflymirrors.com' aria-label='Learn More' title="Learn More button">Learn More</a>
             </div>
         </section>
