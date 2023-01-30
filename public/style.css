@@ -197,7 +197,15 @@ p:not(:last-of-type) {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2rem 2rem; }
+  padding: 2rem 2rem;
+  width: 50%; }
+
+.mobile-col {
+  flex-direction: column;
+  width: 100%; }
+
+.composition > img {
+  max-width: 90%; }
 
 .App {
   display: flex;
@@ -205,7 +213,7 @@ p:not(:last-of-type) {
   align-items: flex-start;
   justify-content: center;
   width: 100%;
-  max-width: 1140px;
+  max-width: 960px;
   margin: 0 auto;
   background-color: rgba(109, 78, 160, 0.25); }
 
@@ -232,7 +240,7 @@ p:not(:last-of-type) {
   background-size: 400% 400%;
   animation: gradientBg 15s linear infinite;
   /* polygon coordinence path left-top, right-top, right-bottom, left-bottom */
-  clip-path: polygon(0 0, 100% 0, 100% 475px, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 600px, 0 100%);
   padding: 0 1rem;
   position: relative; }
 

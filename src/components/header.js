@@ -1,4 +1,4 @@
-// import "../sass/Main.scss";
+import "../sass/Main.scss";
 import ButterflyIcon from '../images/butterfly-icon-purple.svg';
 
 function Header() {

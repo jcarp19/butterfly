@@ -26,7 +26,7 @@
   background-size: 400% 400%;
   animation: gradientBg 15s linear infinite;
   /* polygon coordinence path left-top, right-top, right-bottom, left-bottom */
-  clip-path: polygon(0 0, 100% 0, 100% 475px, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 600px, 0 100%);
   padding: 0 1rem;
   position: relative;
 }

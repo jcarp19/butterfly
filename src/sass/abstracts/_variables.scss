@@ -13,7 +13,8 @@ $color-text-dark: rgb(39, 8, 14);
 $color-text-light: #ffffff;
 
 // GRID
-$grid-width: 114rem;
+$grid-width: 100%; // MOBILE
+$grid-width: 1140px; // DESKTOP
 $gutter-vert: 3rem;
 $gutter-horz: 6rem;
 $padding-vert: 2rem;

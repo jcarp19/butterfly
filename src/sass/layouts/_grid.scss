@@ -16,4 +16,5 @@
 }
 .col-1-2 {
     @include col-base;
+    width: 50%;
 }

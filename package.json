@@ -13,6 +13,7 @@
   },
   "scripts": {
     "deploy": "npm run build && firebase deploy --only hosting",
+    "dev": "npm run build && npm run start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,5 +41,16 @@
   "devDependencies": {
     "node-sass": "^7.0.3",
     "sass": "^1.55.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcarp19/butterfly.git"
+  },
+  "author": "Jim Carpenter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcarp19/butterfly/issues"
   }
 }

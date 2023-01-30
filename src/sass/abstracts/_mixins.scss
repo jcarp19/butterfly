@@ -18,3 +18,7 @@
     justify-content: center;
     @include padding-base;
 }
+@mixin mobile-col-view {
+    flex-direction: column;
+    width: 100%;
+}

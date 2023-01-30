@@ -4,4 +4,9 @@
     // padding-bottom: 30px;
 }
 
- 
+.mobile-col {
+    @include mobile-col-view;
+}
+.composition > img {
+    max-width: 90%;
+}
