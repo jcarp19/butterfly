@@ -1,6 +1,9 @@
 import ButterflyLogoAlt from "../images/butterfly-logo-alt-wh.svg";
 
 export default function BodyContent() {
+  const mainCta = () => {
+    window.location("new.html");
+  };
   return (
     <>
       <section className='row'>
@@ -12,7 +15,9 @@ export default function BodyContent() {
             alt='Butterfly Mirror Logo'
           />
           <h1 className='headline-primary'>web design & development</h1>
-          <button className='btn'>Learn More</button>
+          <button className='btn' onClick={mainCta}>
+            Learn More
+          </button>
         </div>
       </section>
     </>
