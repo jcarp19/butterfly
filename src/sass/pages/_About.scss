@@ -1,12 +1,10 @@
 .section-about {
-    // background-color: rgba($color-primary, .25);
-    // padding-top: 30px;
-    // padding-bottom: 30px;
-}
+  background-color: rgba($color-primary, 0.25);
+  padding-top: 30px;
+  padding-bottom: 30px;
 
-.mobile-col {
-    @include mobile-col-view;
-}
-.composition > img {
-    max-width: 90%;
+  p {
+    font-size: 1.6rem;
+    color: $color-text-dark;
+  }
 }
