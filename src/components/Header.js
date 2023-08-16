@@ -1,18 +1,20 @@
 import "../sass/Main.scss";
-import ButterflyIcon from "../images/butterfly-icon-wh.svg";
+import ButterflyIcon from "../images/icon-v6.svg";
+import PageNav from "./PageNav";
 
 function Header() {
   return (
     <>
-      <header className='row'>
+      <PageNav />
+      <header className='header'>
         <img
-          className='butterfly-icon'
+          className='header__logo'
           src={ButterflyIcon}
           alt='Butterfly Mirrors Logo'
         />
-        <div className='contact'>
-          <span className='material-icons header-icon'>call</span>
-          <span className='phone-number'>
+        <div className='header__contact'>
+          <span className='material-icons header__phone-icon'>call</span>
+          <span className='header__phone-number'>
             <a href='tel:9893902245' alt='call 989-390-2245'>
               989.390.2455
             </a>

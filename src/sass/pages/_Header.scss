@@ -1,34 +1,43 @@
-header {
-  background-color: $color-text-dark;
-  padding: 1.6rem 3.2rem;
-}
-.butterfly-icon {
-  width: 5rem;
-}
-.contact {
+.header {
+  background-color: $color-text-light;
+  padding: 1.6rem 2rem;
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  gap: 0.4rem;
-  font-weight: 400;
-  color: $color-text-light;
-}
-.phone-icon {
-  font-size: 2.1rem;
-  margin-right: 0.4rem;
-}
-.phone-number {
-  font-size: 1.6rem;
-  a,
-  :active,
-  :visited {
-    color: $color-text-light;
-    text-decoration: none;
+
+  &__logo {
+    width: 3rem;
+    margin-left: 6.5rem;
+  }
+
+  &__contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 400;
+    color: $color-text-dark;
+  }
+
+  &__phone-icon {
+    font-size: 2.1rem;
+    margin-right: 0.4rem;
+  }
+
+  &__phone-number {
+    font-size: 1.6rem;
+    a,
+    :active,
+    :visited {
+      color: $color-text-dark;
+      text-decoration: none;
+    }
   }
 }
-@media only screen and (min-width: 600px) {
-  header {
-    padding-right: 4.8rem;
-    padding-left: 4.8rem;
-  }
-}
+// @media only screen and (min-width: 600px) {
+//   header {
+//     padding-right: 4.8rem;
+//     padding-left: 4.8rem;
+//   }
+// }
