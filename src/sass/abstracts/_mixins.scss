@@ -1,24 +1,30 @@
 @mixin content-bg-base {
-    max-width: 100%;
-    background-size: cover;
-    background-position: center;
-    position: relative; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 @mixin padding-base {
-    padding: $padding-vert $padding-horz;
+  padding: $padding-vert $padding-horz;
 }
 @mixin col-base {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    @include padding-base;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @include padding-base;
 }
 @mixin mobile-col-view {
-    flex-direction: column;
-    width: 100%;
+  flex-direction: column;
+  width: 100%;
+}
+@mixin center-vert-horz {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

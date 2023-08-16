@@ -8,7 +8,6 @@ function PageNav() {
   // });
   const hideNav = () => {
     document.getElementById("nav-toggle").click();
-    console.log(`This was clicked`);
   };
   return (
     <>

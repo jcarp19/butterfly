@@ -5,7 +5,6 @@ import PageNav from "./PageNav";
 function Header() {
   return (
     <>
-      <PageNav />
       <header className='header'>
         <img
           className='header__logo'
@@ -20,6 +19,7 @@ function Header() {
             </a>
           </span>
         </div>
+        <PageNav />
       </header>
     </>
   );
