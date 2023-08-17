@@ -1,7 +1,7 @@
 .main-content {
   box-sizing: border-box;
   width: 100%;
-  height: 60vh;
+  min-height: 80vh;
   background: linear-gradient(
     to right bottom,
     rgba($color-secondary, 0.9),
@@ -14,6 +14,8 @@
   background-size: 400% 400%;
   animation: gradientBg 15s linear infinite;
   /* polygon coordinence path left-top, right-top, right-bottom, left-bottom */
+  clip-path: polygon(0 0, 100% 0, 100% 70vh, 0 100%);
+  background-color: rgba($color-primary, 0.9);
   padding: 0 1.6rem;
   position: relative;
 }
@@ -25,9 +27,21 @@
 .main-cta {
   text-decoration: none;
 }
+
+.services {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: flex-start;
+
+  p {
+    font-size: 1.6rem;
+    text-align: left;
+    color: $color-text-dark;
+  }
+}
 @media only screen and (min-width: 600px) {
   .main-content {
-    clip-path: polygon(0 0, 100% 0, 100% 590px, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
     height: 600px;
   }
 }

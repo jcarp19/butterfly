@@ -10,7 +10,7 @@
     border-radius: 50%;
     position: absolute;
     top: 0.75rem;
-    right: 2rem;
+    right: 0.5rem;
     z-index: 2000;
     // box-shadow: 0 1rem 1rem rgba($color-fill-dark, 0.1);
     text-align: center;
@@ -23,7 +23,7 @@
     border-radius: 50%;
     position: absolute;
     top: 1.25rem;
-    right: 2.5rem;
+    right: 1.5rem;
     background-image: radial-gradient($color-primary, $color-tertiary);
     z-index: 1000;
     transition: transform 0.8s cubic-bezier(0.83, 0, 0.17, 1);
@@ -35,6 +35,7 @@
     top: 0;
     left: 0;
     z-index: 1500;
+    // display: none;
     opacity: 0;
     width: 0;
     transition: all 0.8s cubic-bezier(0.56, 0.16, 0.35, 1.31);
@@ -91,6 +92,7 @@
 
   &__checkbox:checked ~ &__nav {
     width: 100%;
+    // display: unset;
     opacity: 1;
   }
 

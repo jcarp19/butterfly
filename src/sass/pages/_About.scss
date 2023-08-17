@@ -1,10 +1,12 @@
-.section-about {
-  background-color: rgba($color-primary, 0.25);
+.about {
   padding-top: 30px;
   padding-bottom: 30px;
+  align-items: flex-start;
+  min-height: 90vh;
 
   p {
     font-size: 1.6rem;
+    text-align: left;
     color: $color-text-dark;
   }
 }

@@ -18,6 +18,15 @@ export default function BodyContent() {
           </Link>
         </div>
       </section>
+      <section className='services col-1-1'>
+        <h2 className='headline__secondary'>What We Do</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sint
+          soluta modi aliquid qui suscipit et delectus itaque accusamus, quas,
+          repellendus voluptas nihil dignissimos assumenda quibusdam labore!
+          Autem, id assumenda!
+        </p>
+      </section>
     </>
   );
 }
